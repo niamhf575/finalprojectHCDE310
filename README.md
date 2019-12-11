@@ -17,9 +17,15 @@ the website only goes back 3,000 tracks (usually around a month, for users I tes
 Citations:
 
 Info icon from https://www.iconfinder.com/iconsets/slim-square-icons-basics
+
 Home & submit icons from https://www.iconfinder.com/iconsets/essential-21
+
 Weather icons from https://www.iconfinder.com/iconsets/weather-color-2
+
 Music note icon from https://www.iconfinder.com/webalys
+
 The top artist album collages used to display results are inspired by Last.fm, and use album art from Last.fm.
+
 Sticky menu adapted from https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+
 Footer background from https://www.toptal.com/designers/subtlepatterns/seigaiha/
