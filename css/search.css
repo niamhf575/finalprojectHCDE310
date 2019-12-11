@@ -1,0 +1,106 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: navy;
+}
+label{
+    color: navy;
+    margin-block: 20px;
+    font-size: 20px;
+    alignment: center;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    alignment: center;
+}
+button{
+    border: none;
+    background: transparent;
+}
+.header {
+  padding: 50px;
+  text-align: center;
+  background: cornflowerblue;
+  color: lightcyan;
+  font-size: 30px;
+    margin-top: 0;
+}
+.header p{
+    text-align: center;
+}
+.form{
+    padding: 20px;
+    display: block;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.message pre{
+margin-top: 50px;
+  margin-left: 130px;
+  padding: 0px 10px;
+    text-align: left;
+    font-family: "Calibri Light";
+    font-size: 50 px;
+
+}
+.message p{
+    text-align: center;
+}
+span{
+    font-size: 50 px;
+}
+#menu {
+  overflow: hidden;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#menu a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px; <<14>>
+}
+
+#menu a image{
+    height=20px;
+    width=20px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.fixAtTop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.fixAtTop + .content {
+  padding-top: 60px;
+}
+footer {
+  height: 210px;
+  background-image: url("waves.png");
+  color: lightcyan;
+  width: 100%;
+}
+footer p{
+    padding-top: 150px;
+    text-align: right;
+    color: gray;
+    font-size: 15px;
+    <<bottom: 0;>>
+}
+footer h1{
+    padding-top: 140px;
+    padding-left: 60px;
+    color: gray;
+    font-size: 25px;
+    text-align: right;
+}

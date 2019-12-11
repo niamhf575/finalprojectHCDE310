@@ -1,0 +1,93 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: navy;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: cornflowerblue;
+  color: lightcyan;
+  font-size: 30px;
+  margin-top: 0;
+}
+.header p{
+    text-align: center;
+}
+.header2 h1{
+  margin-left: 130;
+}
+.body{
+margin-top: 50px;
+  margin-left: 130px;
+  padding: 0px 10px;
+}
+a:link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 20px;
+  font-family: "Times New Roman";
+}
+
+a:visited {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rebeccapurple;
+}
+
+
+#menu {
+  overflow: hidden;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#menu a {
+  float: left;
+  display: block;
+  padding: 12px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.fixAtTop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.fixAtTop + .content {
+  padding-top: 60px;
+}
+
+
+footer {
+  height: 210px;
+  background-image: url("waves.png");
+  color: lightcyan;
+  width: 100%;
+}
+footer p{
+    padding-top: 150px;
+    text-align: right;
+    color: gray;
+    font-size: 15px;
+    <<bottom: 0;>>
+}
+footer h1{
+    padding-top: 140px;
+    padding-left: 60px;
+    color: gray;
+    font-size: 25px;
+    text-align: right;
+}

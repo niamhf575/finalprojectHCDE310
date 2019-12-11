@@ -1,0 +1,71 @@
+<html>
+
+<head><Title>Weather + Music</Title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<link href="css/search.css" rel="stylesheet" type="text/css"/>
+<style type="text/css"> html, body { height: 100%; margin: 0; padding: 0; }
+
+</style>
+<div class="header">
+  <h1>Mood & Weather Analysis with Music</h1>
+  <p>How does the weather affect your music listening habits?</p>
+</div>
+<div id="menu">
+    <a href=" "><img style="height: 30px; width: 30px" src="assets/home.png"></a>
+    <a href="/about"><img style="height: 33px; width: 33px" src="assets/info.png"></a>
+</div>
+<!--sticky menu from w3schools.com-->
+<script>
+window.onscroll = function() {stickyFunction()};
+let menu = document.getElementById("menu");
+let positionMoved = menu.offsetTop;
+function stickyFunction() {
+  if (window.pageYOffset >= positionMoved) {
+    menu.classList.add("fixAtTop")
+  } else {
+    menu.classList.remove("fixAtTop");
+  }
+}
+</script>
+<body>
+<h1 style="text-align: center">{{warning}}</h1>
+<div style="display: table; margin-right: auto; margin-left: auto; margin-top: 50px">
+     <div style="float:left">
+    <img src="assets/weather.png" alt="weather" style="height: 115px;width: 115px">
+     </div>
+
+    <div style="float:left">
+    <img src="assets/musicnote.png" alt="weather" style="height: 67px;width: 67px">
+    </div>
+</div>
+<div class = "form">
+<form id="enterSubject" method="post" action="/">
+    <label for="username">Last.fm Username: </label> <br />
+    <input id="username" name="username" type="text" /><br />
+    <label for="latitude">Latitude: </label> <br />
+    <input id="latitude" name="latitude" type="text" /><br />
+    <label for="longitude">Longitude: </label> <br />
+    <input id="longitude" name="longitude" type="text" /><br />
+    <button type="submit" value='Go' name = 'go' ><img src="css/go.png" width=36 px height= 36 px alt=""></button>
+</form>
+</div>
+
+
+</body>
+<footer>
+    <!--Background pattern from Toptal Subtle Patterns-->
+    <div style = "float: right">
+  <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&copy 2019 Niamh Froelich &nbsp&nbsp&nbsp&nbsp</p>
+  </div>
+    <div style = "text-align: center; float:right">
+        <h1>Weather & Mood Analysis with Music</h1>
+    </div>
+</footer>
+</html>
+
+
+
+
+
