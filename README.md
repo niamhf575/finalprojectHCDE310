@@ -1,6 +1,8 @@
 # finalprojectHCDE310
 
 **video link:** 
+https://www.youtube.com/watch?v=pGSuEAqHg7Y
+
 
 **getting API keys:**
 
