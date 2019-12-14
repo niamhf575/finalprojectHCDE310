@@ -15,7 +15,6 @@ https://darksky.net/dev
 
 **website:**
 
-link to website: https://musicweather.appspot.com/
 the website only goes back 3,000 tracks (usually around a month, for users I tested)
 
 The results use the top album cover for each artist because there is an issue getting artist images from Last.fm.
